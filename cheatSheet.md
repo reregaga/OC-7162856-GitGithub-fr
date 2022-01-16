@@ -75,3 +75,11 @@ $ git merge myNewBranch
 - Set label `myShortName` to remote repo: `$ git remote add myShortName example.com/project.git`
 - Get updates: `$ git pull myShortName main`
 
+### Revert changes:
+- `$ git revert` prefer for remote repo
+- `$ git reset` prefer for local repo
+
+- `$ git reset notreCommitCible --hard` return to any commit
+
+- `$ git reflog`
+- `$ git blame` show info about lines in file
